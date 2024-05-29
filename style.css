@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 4rem;
+  cursor: pointer;
+}
+#page-1 {
+  background: url("Chuluut-5.jpg") no-repeat center center/cover;
+}
+#page-2 {
+  background: url("/Taikhar\ Rock5.jpg") no-repeat center center/cover;
+}
+#page-3 {
+  background: url("/Terkhiin\ Tsagaan\ Lake-6.jpg") no-repeat center
+    center/cover;
+}
+#page-4 {
+  background: url("Photo\ \(3\ of\ 4\).jpg") no-repeat center center/cover;
+}
+#page-5 {
+  background: url("/Tuvkhun5.jpg") no-repeat center center/cover;
+}
+.page h1 {
+  font-size: xx-large;
+  color: white;
+}
+.page a {
+  font-size: x-large;
+  text-decoration: none;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 40%;
+  color: white;
+}
+.page p {
+  font-size: larger;
+  color: white;
+}
